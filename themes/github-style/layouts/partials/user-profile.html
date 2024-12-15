@@ -53,14 +53,14 @@
             <h1 class="vcard-names pl-2 pl-md-0">
               <span class="p-name vcard-fullname d-block overflow-hidden">{{ .Site.Params.author }}</span>
               {{ if .Site.Params.github }}
-              <span class="p-nickname vcard-username d-block">{{ .Site.Params.github }}</span>
+              <span class="p-nickname vcard-username d-block">{{ .Site.Params.github }} · he/him</span>
               {{ end }}
             </h1>
           </div>
         </div>
 
         <div class="p-note user-profile-bio mb-3 js-user-profile-bio f4">
-          <div>{{ .Site.Params.Description }}</div>
+          <div>{{ safeHTML .Site.Params.Description }}</div>
         </div>
 
         <div class="d-flex flex-column">
@@ -107,6 +107,24 @@
         <div class="border-top color-border-secondary pt-3 mt-3 clearfix hide-sm hide-md">
           <h2 class="mb-2 h4">Organizations</h2>
           <div style="display:flex;justify-content:flex-start;flex-wrap:wrap;margin-bottom:3px;">
+          {{ if .Site.Params.mastodon}}
+            <a style="margin: 0 10px 10px 0;" href="{{ .Site.Params.mastodon }}">
+              <img alt="@mastodon" width="32" height="32" src="{{ "images/hachyderm-icon.png" | absURL }}" class="avatar">
+            </a>
+          {{ end }}
+
+          {{ if .Site.Params.bluesky}}
+          <a style="margin: 0 10px 10px 0;" href="https://bsky.app/profile/{{ .Site.Params.bluesky }}">
+            <img alt="@bluesky" width="32" height="32" src="{{ "images/bluesky.png" | absURL }}" class="avatar">
+          </a>
+          {{ end }}
+
+          {{ if .Site.Params.threads}}
+          <a style="margin: 0 10px 10px 0;" href="https://threads.net/@{{ .Site.Params.threads }}">
+            <img alt="@threads" width="32" height="32" src="{{ "images/threads-app-icon.png" | absURL }}" class="avatar">
+          </a>
+          {{ end }}
+
           {{ if .Site.Params.github}}
           <a style="margin: 0 10px 10px 0;" href="https://github.com/{{ .Site.Params.github }}">
             <svg id="github-icon" viewBox="0 0 16 16" version="1.1" width="32" height="32" fill="#24292e">
@@ -150,13 +168,7 @@
 
           {{ if .Site.Params.stackoverflow }}
           <a style="margin: 0 10px 10px 0;" href="https://stackoverflow.com/u/{{ .Site.Params.stackoverflow }}">
-            <img alt="@stackoverflow" width="32" height="32" src="{{ "images/stackoverflow.png" | absURL }}" class="avatar">
-          </a>
-          {{ end }}
-
-          {{ if .Site.Params.bluesky}}
-          <a style="margin: 0 10px 10px 0;" href="https://bsky.app/profile/{{ .Site.Params.bluesky }}">
-            <img alt="@bluesky" width="32" height="32" src="{{ "images/bluesky.png" | absURL }}" class="avatar">
+            <img alt="@stackoverflow" width="32" height="32" src="{{ "images/stackoverflow-icon.png" | absURL }}" class="avatar">
           </a>
           {{ end }}
 
