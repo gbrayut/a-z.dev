@@ -1,3 +1,64 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://a-z.dev/"
+languageCode = "en-us"
+title = "GBrayUT blog"
+theme = "github-style"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Greg Bray"
+  description = "Test description."
+  github = "GBrayUT"
+  #facebook = "greg.bray"
+  #twitter = "GBrayUT"
+  linkedin = "gregorysbray"
+  #instagram = ""
+  #tumblr = ""
+  #email = "@gmail.com"
+  #url = "https://a-z.dev"
+  keywords = "gbrayut"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "👨‍💻"
+  favicon = "/images/github.png"
+  avatar = "/images/avatar.png"
+  headerIcon = "/images/GitHub-Mark-Light-32px.png"
+  location = "SLC, UT"
+  enableGitalk = false
+  enableSearch = true
+
+  #[params.gitalk]
+  #  clientID = "Your client ID"
+  #  clientSecret = "Your client secret"
+  #  repo = "repo"
+  #  owner = ""
+  #  admin = ""
+  #  id = "location.pathname"
+  #  labels = "gitalk"
+  #  perPage = 15
+  #  pagerDirection = "last"
+  #  createIssueManually = true
+  #  distractionFreeMode = false
+
+  [[params.links]]
+    title = "Link example"
+    href = "https://example.com"
+  [[params.links]]
+    title = "Link2"
+    href = "https://example.com"
+    icon = "https://meik2333.com/images/avatar.png"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
+#[services]
+#  [services.googleAnalytics]
+#    ID = "UA-123456-789"
+
+[outputs]
+  home = ["html", "json"]
+
+[outputFormats.json]
+  mediaType = "application/json"
+  baseName = "index"
+  isPlainText = false
