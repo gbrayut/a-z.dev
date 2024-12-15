@@ -31,7 +31,7 @@ pygmentsUseClasses = true
   headerIcon = "/images/arches-favicon2.png"
   location = "Salt Lake City, UT"
   enableGitalk = false
-  enableSearch = false
+  enableSearch = true
 
   #[params.gitalk]
   #  clientID = "Your client ID"
@@ -70,6 +70,6 @@ pygmentsUseClasses = true
   baseName = "index"
   isPlainText = false
 
-[module]
-  [[module.imports]]
-    path = 'github.com/hugo-mods/icons'
+#[module]
+#  [[module.imports]]
+#    path = 'github.com/hugo-mods/icons'
