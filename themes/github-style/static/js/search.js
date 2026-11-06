@@ -1,5 +1,6 @@
 (() => {
-  fetch('/index.json')
+  const indexUrl = typeof searchIndexUrl !== 'undefined' ? searchIndexUrl : (document.querySelector('link[type="application/json"]')?.getAttribute('href') || 'index.json');
+  fetch(indexUrl)
   .then(response => response.json())
   .then(data => {
     const fuse = new Fuse(data, {
