@@ -1,6 +1,6 @@
 baseURL = "https://a-z.dev/"
 languageCode = "en-us"
-title = "GBrayUT blog"
+title = "A-Z Dev blog"
 theme = "github-style"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
@@ -23,7 +23,7 @@ pygmentsUseClasses = true
   
 
   keywords = "gbrayut"
-  rss = true
+  rss = false   # disable rss for now
   lastmod = true
   userStatusEmoji = "👨‍💻"
   favicon = "images/arches-favicon2.png"
@@ -33,19 +33,6 @@ pygmentsUseClasses = true
   enableGitalk = false
   enableSearch = true
 
-  #[params.gitalk]
-  #  clientID = "Your client ID"
-  #  clientSecret = "Your client secret"
-  #  repo = "repo"
-  #  owner = ""
-  #  admin = ""
-  #  id = "location.pathname"
-  #  labels = "gitalk"
-  #  perPage = 15
-  #  pagerDirection = "last"
-  #  createIssueManually = true
-  #  distractionFreeMode = false
-
   # Add additional links to Organizations section
   #[[params.links]]
   #  title = "Link example"
@@ -53,7 +40,7 @@ pygmentsUseClasses = true
   #[[params.links]]
   #  title = "Link2"
   #  href = "https://example.com"
-  #  icon = "https://meik2333.com/images/avatar.png"
+  #  icon = "https://example.com/images/avatar.png"
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
@@ -69,7 +56,3 @@ pygmentsUseClasses = true
   mediaType = "application/json"
   baseName = "index"
   isPlainText = false
-
-#[module]
-#  [[module.imports]]
-#    path = 'github.com/hugo-mods/icons'
