@@ -63,7 +63,7 @@ pygmentsUseClasses = true
 #    ID = "UA-123456-789"
 
 [outputs]
-  home = ["html", "json"]
+  home = ["html", "rss", "json"]
 
 [outputFormats.json]
   mediaType = "application/json"
