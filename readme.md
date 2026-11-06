@@ -15,6 +15,10 @@ hugo --gc --minify --baseURL "https://stage.a-z.dev/"
 hugo --gc --minify --baseURL "https://a-z.dev/" --destination ./dist-prod
 ```
 
+# Special content types
+
+- Youtube embeddings https://github.com/gohugoio/hugo/blob/master/docs/content/en/shortcodes/youtube.md
+
 # Docs and other examples repos
 
 - Getting Started https://gohugo.io/getting-started/

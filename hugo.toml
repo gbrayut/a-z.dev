@@ -1,9 +1,14 @@
 baseURL = "https://a-z.dev/"
-languageCode = "en-us"
+locale = "en-US"
 title = "A-Z Dev blog"
 theme = "github-style"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
   author = "Greg Bray"
