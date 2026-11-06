@@ -82,7 +82,7 @@
       </div>
     </div>
 
-    {{ $section := where .Site.RegularPages "Section" "in" (slice "post") }}
+    {{ $section := where .Site.RegularPages "Section" "in" (slice "post" "talks") }}
     <div class="mt-4 position-relative" id="contributions" data='[{{ range $index, $elem := $section }}
 {
   "title": "{{ .Title }}",

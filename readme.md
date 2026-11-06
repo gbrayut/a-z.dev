@@ -20,6 +20,9 @@ hugo --gc --minify --baseURL "https://a-z.dev/" --destination ./dist-prod
 - Getting Started https://gohugo.io/getting-started/
 - Hugo releases https://github.com/gohugoio/hugo/releases
 - Hugo Theme https://github.com/MeiK2333/github-style
+
+Other Examples
+- https://engineering.getweave.com/post/
 - https://github.com/carsonoid/forgeutah.tech
 - https://github.com/carsonoid/carson-anderson.com
 - https://github.com/carsonoid/vitess-website
