@@ -5,4 +5,5 @@ draft: false
 summary: "Cloud Examples, talks, and other content from Greg Bray"
 ---
 **Experience:** AI, Kubernetes, GCP, AWS, Azure, Istio, DevOps
+
 **Programming Languages:** Go, BASH, Python, HTML / CSS

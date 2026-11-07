@@ -4,7 +4,7 @@ date: 2026-11-01T16:10:00-07:00
 draft: false
 author: "Greg Bray"
 description: "A presentation at KubeCon + CloudNativeCon North America 2026 on replacing admission webhooks with native in-tree Common Expression Language (CEL) policies."
-tags: ["kubernetes", "platform-engineering", "security"]
+tags: ["kubernetes", "platform engineering", "security"]
 ---
 
 **Conference:** [KubeCon + CloudNativeCon North America 2026](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/)  

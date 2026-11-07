@@ -4,7 +4,7 @@ date: 2022-02-15T16:00:00-07:00
 draft: false
 author: "Greg Bray"
 description: "This talk will showcase the latest and greatest for ingress and service routing when using multiple GKE clusters."
-tags: ["kubernetes", "meetup", "cloud", "gke"]
+tags: ["gateway api", "kubernetes", "gke"]
 ---
 
 This talk will showcase the latest and greatest for ingress and service routing when using multiple GKE clusters.

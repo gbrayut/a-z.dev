@@ -2,6 +2,20 @@
 
 Github actions deploys staging to https://gbrayut.github.io/a-z.dev/
 
+# Installing https://gohugo.io
+
+See https://gohugo.io/installation/ or use the following for static binary:
+
+```bash
+cd /tmp
+HUGO_VERSION=0.169.0  # from https://github.com/gohugoio/hugo/releases
+wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+sudo dpkg -i /tmp/hugo.deb
+
+/usr/local/bin/hugo version
+hugo v0.169.0-1da10fc44701c566b1669cdb2d12638f155138bd+extended linux/amd64 BuildDate=2026-10-27T14:52:20Z VendorInfo=gohugoio
+```
+
 # How to build locally for https://a-z.dev
 
 ```bash
