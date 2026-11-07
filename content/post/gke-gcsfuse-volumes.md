@@ -2,6 +2,7 @@
 title: "Using Cloud Storage FUSE Volumes on GKE"
 date: 2026-04-20T17:55:00-07:00
 draft: false
+pin: true
 author: "Greg Bray"
 description: "A guide and practical patterns for mounting Google Cloud Storage buckets as POSIX file systems on GKE using the Cloud Storage FUSE CSI driver."
 tags: ["kubernetes", "gke", "storage"]
