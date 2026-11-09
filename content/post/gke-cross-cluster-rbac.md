@@ -4,7 +4,7 @@ date: 2026-06-22T18:00:00-07:00
 draft: false
 pin: true
 author: "Greg Bray"
-description: "A guide and practical examples for configuring cross-cluster Kubernetes RBAC using Workload Identity Federation (WIF) on GKE."
+summary: "A guide and practical examples for configuring cross-cluster Kubernetes RBAC using Workload Identity Federation (WIF) on GKE."
 tags: ["kubernetes", "security", "gke"]
 keywords: ["kubernetes","gke","rbac","WIF"]
 external_url: "https://github.com/gbrayut/cloud-examples/tree/main/gke-cross-cluster-rbac"

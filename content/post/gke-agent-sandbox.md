@@ -2,8 +2,9 @@
 title: "Isolating AI Workloads with GKE Agent Sandbox"
 date: 2026-09-20T17:20:00-07:00
 draft: false
+pin: true
 author: "Greg Bray"
-description: "An overview of running isolated, disposable AI agent runtimes on GKE using Agent Sandbox, gVisor, and Managed Workload Identity."
+summary: "An overview of running isolated, disposable AI agent runtimes on GKE using Agent Sandbox, gVisor, and Managed Workload Identity."
 tags: ["kubernetes", "gke", "ai", "sandbox"]
 keywords: ["kubernetes","gke","gvisor","sandbox","SandboxWarmPool","SandboxClaim"]
 external_url: "https://github.com/gbrayut/cloud-examples/tree/main/gke-agent-sandbox"
