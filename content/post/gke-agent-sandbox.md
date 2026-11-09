@@ -1,5 +1,5 @@
 ---
-title: "Isolated AI Workloads with GKE Agent Sandbox"
+title: "Isolating AI Workloads with GKE Agent Sandbox"
 date: 2026-09-20T17:20:00-07:00
 draft: false
 author: "Greg Bray"
