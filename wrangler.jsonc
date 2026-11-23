@@ -1,9 +1,15 @@
 {
   // Cloudflare Workers with Static Assets (no main script)
-  // Worker endpoint: https://hugo.a-z-d.workers.dev
+  // Worker: hugo.a-z-d.workers.dev -> Custom Domain: https://a-z.dev
   "name": "hugo",
   "compatibility_date": "2026-11-23",
   "keep_vars": true,
+  "routes": [
+    {
+      "pattern": "a-z.dev",
+      "custom_domain": true
+    }
+  ],
   "assets": {
     "directory": "./public",
     "not_found_handling": "404-page",
