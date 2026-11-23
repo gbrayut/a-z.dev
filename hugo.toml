@@ -4,6 +4,7 @@ title = "A-Z Dev blog"
 theme = "github-style"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
+enableRobotsTXT = true
 
 [markup]
   [markup.goldmark]
