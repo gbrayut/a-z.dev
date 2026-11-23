@@ -1,0 +1,5 @@
+# https://developers.cloudflare.com/pages/configuration/redirects/
+/story  https://a-z.dev/ 302
+/story-old  https://archive.is/bXB1Y
+/stage  https://gbrayut.github.io/a-z.dev/
+/actions https://github.com/gbrayut/a-z.dev/actions
