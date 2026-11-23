@@ -87,7 +87,8 @@
                 <a class="u-email link-gray-dark " href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
               </li>
               {{ end }}
-
+              
+              {{ if .Site.Params.displayurlonhomepage }}
               <li class="vcard-detail pt-1 css-truncate css-truncate-target ">
                 <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16">
                   <path fill-rule="evenodd"
@@ -100,6 +101,7 @@
                 <a rel="nofollow me" class="link-gray-dark" href="{{ .Site.BaseURL }}">{{ .Site.BaseURL }}</a>
                 {{ end }}
               </li>
+              {{ end }}
             </ul>
           </div>
         </div>
