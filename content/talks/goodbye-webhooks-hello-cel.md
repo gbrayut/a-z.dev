@@ -8,11 +8,8 @@ summary: "A presentation at KubeCon 2026 on replacing admission webhooks with na
 tags: ["kubernetes", "platform engineering", "security"]
 ---
 
-**Conference:** [KubeCon + CloudNativeCon North America 2026](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/)  
-**Date & Time:** November 11, 2026 • 4:10 PM – 4:40 PM MST  
-**Location:** Salt Palace Convention Center | Level 2 | Room 255 EF (Salt Lake City, UT)  
-**Track:** Platform Engineering  
-**Session Link:** [Schedule & Session Details](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1248888)  
+{{< youtube tt4N1LaTZgo >}}
+
 **Slides:** [Download Presentation Slides](https://sessionize.com/download/ictagvew~PvejDLBbmh7K928cm3Qcer.pdf~goodbye-webhooks-hello-cel-greg-bray-kubecon-na-2026.pdf)
 
 ---

@@ -1,6 +1,7 @@
 # Overview
 
-Github actions deploys staging to https://gbrayut.github.io/a-z.dev/
+- Pushing to `main` renders and deploys staging to GitHub Pages (`https://gbrayut.github.io/a-z.dev/`) via `.github/workflows/hugo.yml`.
+- Pushing to `live` renders and deploys the live site to Cloudflare Workers (`https://a-z.dev/`) via `.github/workflows/cloudflare.yml`.
 
 # Installing https://gohugo.io
 
